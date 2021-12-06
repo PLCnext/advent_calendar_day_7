@@ -7,7 +7,7 @@ Welcome to day 7 of our advent calendar. First of all you will get a brief intro
 
 Install the Balena Engine App ([ARM](https://www.plcnextstore.com/963) or [x86](https://www.plcnextstore.com/1032)) from the PLCnext Store. Alternatively you can install Balena-Engine from our GitHub Repository [Docker Getting Started](https://github.com/PLCnext/Docker_GettingStarted) manually.
 
-Login to your terminal as admin and run the following commands:
+Login to the PLCnext controller terminal as admin and run the following commands:
 
 ```bash
 git clone https://github.com/PLCnext/advent_calendar_day_7.git
@@ -16,9 +16,9 @@ balena-engine build -t christmas .
 balena-engine run -it christmas
 ```
 
-## With Root privileges and Firmware 2021.9 LTS
+## With Root privileges and Firmware 2021.9
 
-Login to your terminal as root and run the following commands:
+Login to the PLCnext controller terminal as root and run the following commands:
 
 ```bash
 git clone https://github.com/PLCnext/advent_calendar_day_7.git
